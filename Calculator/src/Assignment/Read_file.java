@@ -9,7 +9,7 @@ public abstract class Read_file {
 
         Double[] inputs = new Double[2];
         try {
-            FileReader read_file = new FileReader("Calculator.txt");
+            FileReader read_file = new FileReader("C:\\Users\\This PC\\OneDrive\\Desktop\\Calculator\\Calculator\\src\\Assignment\\Calculator.txt");
             BufferedReader buf_reader = new BufferedReader(read_file);
 
             String numbers;
