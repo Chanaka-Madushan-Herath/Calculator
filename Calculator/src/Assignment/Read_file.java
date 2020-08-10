@@ -3,7 +3,6 @@ package Assignment;
 import java.io.*;
 
 import static java.lang.System.exit;
-import static java.lang.System.setOut;
 
 public abstract class Read_file {
     public Double[] file_read(){
