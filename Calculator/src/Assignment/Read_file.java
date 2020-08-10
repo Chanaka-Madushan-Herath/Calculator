@@ -2,6 +2,9 @@ package Assignment;
 
 import java.io.*;
 
+import static java.lang.System.exit;
+import static java.lang.System.setOut;
+
 public abstract class Read_file {
     public Double[] file_read(){
 
@@ -20,7 +23,12 @@ public abstract class Read_file {
             read_file.close();
         }
         catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("Unable to find input file");
+            exit(0);
+        }
+        catch (NumberFormatException e){
+            System.out.println("Input only numbers for 'Calculator.txt' ");
+            exit (0);
         }
         catch (IOException e) {
             e.printStackTrace();
