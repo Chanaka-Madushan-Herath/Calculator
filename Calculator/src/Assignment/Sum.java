@@ -2,10 +2,10 @@ package Assignment;
 
 public class Sum extends Read_file{
     public void Add_numbers(){
-        int Answer;
-        System.out.println("You choose Addition ");
+        Double Answer;
+        System.out.println("You select Addition ");
 
-        int[] x=new int[2];
+        Double[] x=new Double[2];
         x=file_read();
 
         Answer=x[0]+x[1];

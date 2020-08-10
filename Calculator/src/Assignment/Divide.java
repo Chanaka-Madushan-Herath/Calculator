@@ -2,13 +2,13 @@ package Assignment;
 
 public class Divide extends Read_file{
     public void divide_numbers(){
-        float Answer;
-        System.out.println("You choose Division");
+        Double Answer;
+        System.out.println("You select Division");
 
-        int[] x=new int[2];
+        Double[] x= new Double[2];
         x=file_read();
 
-        Answer=(float) x[0]/x[1];
+        Answer= x[0]/x[1];
 
         System.out.println( "Answer : "+Answer+"\n");
     }

@@ -2,10 +2,10 @@ package Assignment;
 
 public class Subtract extends Read_file {
     public void subtract_numbers(){
-        int Answer;
-        System.out.println("You choose Subtraction ");
+        Double Answer;
+        System.out.println("You select Subtraction ");
 
-        int[] x=new int[2];
+        Double[] x=new Double[2];
         x=file_read();
 
         Answer=x[0]-x[1];

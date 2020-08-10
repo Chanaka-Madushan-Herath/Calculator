@@ -2,10 +2,10 @@ package Assignment;
 
 public class Multipy extends Read_file{
     public void multypy_numbers(){
-        int Answer;
-        System.out.println("You choose Multiplication ");
+        Double Answer;
+        System.out.println("You select Multiplication ");
 
-        int[] x=new int[2];
+        Double[] x=new Double[2];
         x=file_read();
 
         Answer=x[0]*x[1];
